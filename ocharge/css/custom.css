@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+body{
+	font-family: 'Nunito', sans-serif;
+}
+.ocharge-header-text{
+	padding-top: 120px;
+	font-size: 40px;
+	color: #fff;
+	font-weight: bold;
+}
+.bg-none {
+	background: none;
+}
+.top-bg{
+	background-color: rgba(105,70,182,.9);
+	height: 100%;
+}
+#header-image {
+	
+	height: 700px;
+	width: 100%;
+	background-size: cover;
+	position: relative;
+	z-index: -1;
+	background: url(../images/1.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+.pos-image-1{
+position: absolute;
+left: 0px;
+top:-260px;
+width: 300px !important;
+}
+.pos-image-2{
+position: absolute;
+right: 0px;
+top:-210px;
+width: 300px !important;
+}
+
+.header-button-1{
+	background-color:#ff5252;font-size:16px;font-weight:bold;width:60%;padding:20px;border-top-left-radius: 40px;border-bottom-left-radius: 40px;color:#fff;float: left;
+}
+.header-button-2
+{
+	background-color:#ffffff;font-size:16px;font-weight:bold;width:40%;padding:12px;border-top-right-radius: 40px;border-bottom-right-radius: 40px;color:#fff;float: left;
+}
+.header-button-3{
+	margin-top: 20px;
+	border-radius: 40px;
+	border:1px solid #ccc;
+	color: #ccc;
+	font-size: 20px;
+	display: inline-block;
+	padding: 20px 30px;
+}
+.custom-pad {
+	font-size: 30px;
+	margin-top: 50px;
+}
+
+.ocharge-pad{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.strip-2{
+
+}
+h2{
+	font-size: 40px;
+	font-family: 'Nunito', sans-serif;
+	font-weight: bold;
+	line-height: 50px;
+}
+
+h2.h2small{
+	font-size: 30px;
+	font-family: 'Nunito', sans-serif;
+	font-weight: bold;
+
+}
+.strip-3{
+	background-color:#f8f8f8;
+}
+.strip-3-content{
+	padding-top:150px;font-size:40px;
+}
+.strip-4{
+	background-color:#ff5252;
+}
+.strip-4-content{
+	min-height: 400px;
+}
+.btn-title{
+	letter-spacing: 2px;
+}
+#backshape .wrapper,#backshape-2 .wrapper-2,#backshape-3 .wrapper-3 {
+	display: block;
+	float: right;
+	margin: 50px auto 45px;
+	width: 100%;
+	padding: 0 5%;
+	z-index: 1;
+/*transform:skew(-5deg,0deg);
+-ms-transform:skew(0deg,-10deg);
+-webkit-transform:skew(0deg,-5deg); */
+}
+.image-up{
+	z-index: 9001;
+}
+#backshape,#backshape-2 {
+
+	display: block;
+	float: left;
+	margin-top: -100px;
+	width: 100%;
+	z-index: 1;
+	background: white;
+	transform: skew(0deg, 20deg);
+	-ms-transform: skew(0deg, 10deg);
+	/* IE 9 */
+	-webkit-transform: skew(0deg, 176deg);
+	/* Safari and Chrome */
+}
+#backshape-2 {
+
+	display: block;
+	float: left;
+	margin-top: -50px;
+	width: 100%;
+	z-index: 1;
+	background: white;
+	box-shadow: 10px 10px 10px #ccc;
+	transform: skew(0deg, 20deg);
+	-ms-transform: skew(0deg, 10deg);
+	/* IE 9 */
+	-webkit-transform: skew(0deg, 176deg);
+	/* Safari and Chrome */
+}  
+#backshape-3 {
+
+	display: block;
+	float: left;
+	margin-top: 0px;
+	width: 100%;
+	z-index: 1;
+	background: #f8f8f8;
+	transform: skew(0deg, 20deg);
+	-ms-transform: skew(0deg, 10deg);
+	/* IE 9 */
+	-webkit-transform: skew(0deg, 176deg);
+	/* Safari and Chrome */
+}  
+.strip-5{
+	background-color: #f8f8f8;
+}
+.strip-6{
+	padding-top: 80px;
+
+}
+.btn {
+	background: #b307e3;
+	background-image: -webkit-linear-gradient(top, #b307e3, #b500d1);
+	background-image: -moz-linear-gradient(top, #b307e3, #b500d1);
+	background-image: -ms-linear-gradient(top, #b307e3, #b500d1);
+	background-image: -o-linear-gradient(top, #b307e3, #b500d1);
+	background-image: linear-gradient(to bottom, #b307e3, #b500d1);
+	-webkit-border-radius: 28;
+	-moz-border-radius: 28;
+	border-radius: 28px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+}
+
+.btn:hover {
+	background: #ba04a8;
+	background-image: -webkit-linear-gradient(top, #ba04a8, #b504c9);
+	background-image: -moz-linear-gradient(top, #ba04a8, #b504c9);
+	background-image: -ms-linear-gradient(top, #ba04a8, #b504c9);
+	background-image: -o-linear-gradient(top, #ba04a8, #b504c9);
+	background-image: linear-gradient(to bottom, #ba04a8, #b504c9);
+	text-decoration: none;
+}  
+
+
+.btnred {
+	background: #ff5252;
+	-webkit-border-radius: 28;
+	-moz-border-radius: 28;
+	border-radius: 28px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 18px;
+	padding: 16px 20px;
+	text-decoration: none;
+}
+
+.btnred:hover {
+	background: #cf1212;
+	text-decoration: none;
+	color: #fff;
+} 
+
+.ocharge-comment-box-subtext{
+	color: #aaa;
+	font-size: 24px;
+	font-weight: bold;
+}
+.ocharge-comment-box{
+	border:2px solid #b307e3;
+	border-radius: 6px;
+}
+h3.ocharge-box-title{
+	color: #ba04a8;
+	font-size: 16px;
+	font-weight: bold;
+}
+.img-circle{
+	border-radius: 80px;
+	width:80px;
+	margin-top:-80px;
+	height: 80px;
+	border:2px solid #ba04a8;
+}
+.ldquo{
+	color: #b307e3;
+	font-size: 140px;
+	line-height: 140px;
+	text-align: right;
+	margin-top: -80px;
+}
+
+.input-group-addon{
+	border-radius:30px;
+}
+.nobg{
+	background-color: #fff !important;
+}
+.input-size{
+	padding:20px;
+	font-size: 20px;
+	color: #ccc;
+	border:2px solid #ccc;
+}
+#inlineFormInputGroup{
+	border-left: none !important;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+.whitebox{
+	border:2px soild #ccc;
+
+}
+.down-arrow{
+	display:inline-block;color:red;background-color: #fff;box-shadow:1px 1px 10px #000;padding:10px 26px;border-radius:50px;
+	-webkit-transform: skew(0deg, 3deg);
+	margin-top:-40px;font-size: 50px;
+}
+.ocharge-box{
+	border:2px solid #ccc;
+	padding: 40px 80px;
+	margin-top: -180px;
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 1px 4px 20px #111;
+}
+.ocharge-box-2{
+	border:2px solid #ccc;
+	padding: 40px 80px;
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 1px 4px 20px #aaa;
+}
+.strip-5-text{
+	-webkit-transform: skew(0deg, 4deg);
+}
+
+/*media queries*/
+
+@media screen and (min-width: 400px) and (max-width: 800px) { 
+	#header-image {
+		background-color: #6340af;
+		height: 700px;
+		width: 100%;
+		background-size: cover;
+		position: relative;
+		z-index: -1;
+	}
+
+.pos-image-1{
+position: absolute;
+left: 0px;
+top:-140px;
+width: 160px !important;
+}
+.pos-image-2{
+position: absolute;
+right: 0px;
+top:-114px;
+width: 160px !important;
+}
+
+}
